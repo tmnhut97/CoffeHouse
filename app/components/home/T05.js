@@ -35,7 +35,7 @@ export class T05 extends Component {
                         longitude: 106.700980,
                     },
                     title: "Coffe House",
-                    description: "Quan CaFe"
+                    description: "Quan CaFe Haha"
                 }
             ]
         }
