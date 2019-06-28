@@ -5,6 +5,7 @@ import {
 // StatusBar.setHidden(true);
 import RouterTab from "./RouterTab"
 
+import Product from "../components/home/product/Product"
 import Account from "../components/home/T04/Account"
 import Music from "../components/home/T04/Music"
 // import History from "../components/home/T04/History"
@@ -49,6 +50,13 @@ const MainNavigator = createStackNavigator({
 	// 		header: null ,
 	// 	}
 	// },
+	
+	Product: {
+		screen: Product ,
+		navigationOptions: {
+			header: null ,
+		}
+	},
 },
 	{
 	  initialRouteName: "RouterTab"

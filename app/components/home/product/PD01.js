@@ -2,11 +2,9 @@ import React, { Component } from 'react'
 import { Text, View, Dimensions, StyleSheet, Image, TouchableOpacity, FlatList } from 'react-native'
 
 import DetailProduct from './DetailProduct'
-import Modal from 'react-native-modalbox'
 import ic_add from '../../../images/ic_add.png'
 
 
-var screen = Dimensions.get('window');
 export class PD01 extends Component {
     constructor(props) {
         super(props);
