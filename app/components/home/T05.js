@@ -47,8 +47,8 @@ export class T05 extends Component {
                 <MapView
                 style={styles.map}
                 initialRegion={{
-                    latitude: 37.78825,
-                    longitude: -122.4324,
+                    latitude: 10.024765, 
+                    longitude: 105.774622,
                     latitudeDelta: 0.0922,
                     longitudeDelta: 0.0421,
                 }}>
