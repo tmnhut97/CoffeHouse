@@ -45,10 +45,11 @@ export class T05 extends Component {
         return (
             <View style={styles.container}>
                 <MapView
+                showsMyLocationButton = {true}
                 style={styles.map}
                 initialRegion={{
-                    latitude: 10.024765, 
-                    longitude: 105.774622,
+                    latitude: 14.058324, 
+                    longitude: 108.277199,
                     latitudeDelta: 0.0922,
                     longitudeDelta: 0.0421,
                 }}>
