@@ -119,17 +119,16 @@ export class T05 extends Component {
                     latitudeDelta: 0.0922,
                     longitudeDelta: 0.0421,
                 }}>
-                    {this.state.showLocaltion &&
-                        <MapView.Marker
-                            coordinate={{
-                                latitude: this.state.currentLatitude,
-                                longitude: this.state.currentLongitude,
+                
+                    <MapView.Marker
+                        coordinate={{
+                            latitude: this.state.currentLatitude,
+                            longitude: this.state.currentLongitude,
 
-                            }}
-                            title="Vị trí của tôi"
-                            image={ic}
-                        />
-                    }
+                        }}
+                        title="Vị trí của tôi"
+                        image={ic}
+                    />
                     {
                         this.state.markers.map(marker => (
                         <MapView.Marker
